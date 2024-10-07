@@ -24,5 +24,5 @@ our innovator.
 - **[Sevin Stone](https://github.com/sevstone)**
 - **John Gilbert**
 - **Max Zotti**
-- **Brody Hinton??**
+- **Brody Hinton**
 
