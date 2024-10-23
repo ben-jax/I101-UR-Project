@@ -3,10 +3,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Poppins';
-}
-
-.container {
-    padding: 0px;
+    font-size: 25px;
 }
 
 .top {
@@ -15,7 +12,7 @@
 
 .body-contents {
     padding: 15px;
-    font-size: 25px;
+
 }
 
 .body-contents img {
