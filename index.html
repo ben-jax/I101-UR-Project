@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'>
+    
     <title>Underrepresented Project | I101</title>
 </head>
 <body>
-    <div class="container">
+    <div id="my-side-nav" class="side-nav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+        <a class="current" href="#">Our Campaign</a>
+        <a href="about.html">About</a>
+        <a href="team.html">Meet Our Team</a>
+    </div>
+
+    <div id="main" class="container">
+
         <div class="row top">
             <div class="col-xl-12">
-                <h2>Ciphering Inclusivitiy with Dr. Fei Fei Li</h2>
+                <h2><span onclick="openNav()">&#9776;</span>Ciphering Inclusivitiy with Dr. Fei Fei Li</h2>
             </div>
         </div>
 
@@ -19,29 +28,33 @@
             <div class="col-xl-12">
 
                 <img src="images/fei.jpg">
-
+            
                 <h2>About Dr. Fei Fei Li</h2>
 
                 <h3><em>Background</em></h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda nostrum 
-                    exercitationem, voluptatum minus cumque facilis incidunt tempora, nobis nesciunt 
-                    eius consequuntur possimus aspernatur quod quidem magni ullam vitae in fuga?
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus cum a, quos 
-                    facilis dolor enim necessitatibus et excepturi, fuga distinctio quas delectus placeat 
-                    veritatis tempora quae amet molestias consequatur sapiente?</p>
-                    <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat tempora temporibus 
-                    iste excepturi eaque, sint, deleniti ipsa optio reiciendis natus veniam enim eius magni nulla 
-                    omnis expedita accusantium eos ut!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae voluptates iure dolor 
-                    magni error voluptas porro pariatur, officia reprehenderit distinctio nihil repudiandae cumque 
-                    culpa aliquid quam explicabo, dolorem nisi! hello</p>
+                <div class="body-text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda nostrum 
+                        exercitationem, voluptatum minus cumque facilis incidunt tempora, nobis nesciunt 
+                        eius consequuntur possimus aspernatur quod quidem magni ullam vitae in fuga?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus cum a, quos 
+                        facilis dolor enim necessitatibus et excepturi, fuga distinctio quas delectus placeat 
+                        veritatis tempora quae amet molestias consequatur sapiente?</p>
+                        <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat tempora temporibus 
+                        iste excepturi eaque, sint, deleniti ipsa optio reiciendis natus veniam enim eius magni nulla 
+                        omnis expedita accusantium eos ut!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae voluptates iure dolor 
+                        magni error voluptas porro pariatur, officia reprehenderit distinctio nihil repudiandae cumque 
+                        culpa aliquid quam explicabo, dolorem nisi! hello</p>
+                </div>
+
             </div>
 
         </div>
 
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>

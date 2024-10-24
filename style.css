@@ -7,7 +7,60 @@
 }
 
 .top {
-    background-color: paleturquoise;
+    background-color: #BDD2EF;
+}
+
+.top span{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.top h3 {
+    font-size: 35px;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, #BDD2EF, #E0D4E7, #EECEDA);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.side-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color: #f1f1f1;
+}
+
+.side-nav .close-btn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.side-nav .current {
+    color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
 }
 
 .body-contents {
@@ -17,7 +70,7 @@
 
 .body-contents img {
     display: block;
-    border: 2px, solid, black;
+    border: 2px solid black;
     border-radius: 3px;
     max-width: 100%;
     height: auto;
@@ -27,10 +80,19 @@
 
 .body-contents h2 {
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.body-contents p {
-    border: 10px, solid, black;
-    line-height: 2em;
+.body-contents h3 {
+    padding-bottom: 15px;
     
+}
+
+.body-text {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.body-text p {
+    padding: 15px;
 }
