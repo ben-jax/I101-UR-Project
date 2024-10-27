@@ -6,6 +6,18 @@
     font-size: 25px;
 }
 
+html, body {
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    padding: 15px;
+}
+
 .top {
     background-color: #BDD2EF;
 }
@@ -105,4 +117,10 @@
     padding-left: 15px;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+footer {
+    background-color: #BDD2EF;
+    text-align: center;
+    padding: 15px;
 }
