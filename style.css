@@ -27,7 +27,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background: linear-gradient(to top, #BDD2EF, #E0D4E7, #EECEDA);
+    background: linear-gradient(to bottom, #BDD2EF, #E0D4E7, #EECEDA);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -95,4 +95,14 @@
 
 .body-text p {
     padding: 15px;
+}
+
+.people {
+    padding-top: 15px;
+}
+
+.person {
+    padding-left: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
