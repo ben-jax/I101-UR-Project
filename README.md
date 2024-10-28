@@ -4,7 +4,7 @@ Our group decided on covering Fei-Fei Li for this project. Our website will incl
 our innovator.
 
 ## Files
-- **index.html:** The website main page file, with links to other pages.
+- **innovator.html:** The website main page file, with links to other pages.
 - **style.css:** The main styling file.
 
 ## Resources Used:
