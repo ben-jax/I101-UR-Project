@@ -23,6 +23,5 @@ our innovator.
 - **[Ben Jacobs](https://github.com/ben-jax)**
 - **[Sevin Stone](https://github.com/sevstone)**
 - **John Gilbert**
-- **Max Zotti**
-- **Brody Hinton**
+- **[Brody Hinton](https://github.com/brodyhinton)**
 
