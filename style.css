@@ -100,7 +100,14 @@ html, body {
 
 .body-contents h3 {
     padding-bottom: 15px;
-    
+    background-color: #FFFFF0;
+    border-radius: 35px;
+    padding-left: 15px;
+}
+
+.body-contents span {
+    cursor: pointer;
+    font-size: 25px;
 }
 
 .background-info {
