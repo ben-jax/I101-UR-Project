@@ -13,13 +13,15 @@ html, body {
     flex-direction: column;
 }
 
-.container {
+.container-fluid {
     flex: 1;
     padding: 15px;
+    background-color: #F5E6F7;
 }
 
 .top {
     background-color: #BDD2EF;
+    border-bottom: 3px solid black;
 }
 
 .top span{
@@ -83,11 +85,12 @@ html, body {
 .body-contents img {
     display: block;
     border: 2px solid black;
-    border-radius: 3px;
+    border-radius: 10px;
     max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .body-contents h2 {
@@ -100,23 +103,72 @@ html, body {
     
 }
 
-.body-text {
+.background-info {
     border: 2px solid black;
     border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-.body-text p {
+.background-info p {
     padding: 15px;
 }
 
-.people {
+.contributions-info {
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contributions-info h5 {
     padding-top: 15px;
+    padding-left: 15px;
+}
+
+.contributions-info p {
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.people {
+    padding: 15px;
+    margin: 0px;
 }
 
 .person {
     padding-left: 15px;
-    border: 2px solid black;
-    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.person img {
+    width: 75%;
+    height: 335px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.person h3 {
+    padding-top: 15px;
+    color: #333;
+}
+
+.person p {
+    color: #333;
+}
+
+.person i {
+    font-size: 75px;
+    padding: 15px;
+}
+
+.person a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.person a:hover {
+    color: #666666;
 }
 
 footer {
