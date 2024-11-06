@@ -7,15 +7,15 @@ function openNav() {
     document.getElementById("my-side-nav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
     document.getElementById("bar").style.marginLeft = "250px";
-  }
+}
   
-  function closeNav() {
+function closeNav() {
     document.getElementById("my-side-nav").style.width = "0px";
     document.getElementById("main").style.marginLeft = "auto";
     document.getElementById("bar").style.marginLeft = "0px";
-  }
+}
 
-  document.querySelector('.toggle-header').addEventListener('click', function() {
+document.querySelector('.toggle-header').addEventListener('click', function() {
     const info = document.querySelector('.background-info');
     const arrow = document.querySelector('.toggle-arrow');
 
@@ -28,7 +28,7 @@ function openNav() {
     }
   });
 
-  document.querySelector('.toggle-header-two').addEventListener('click', function() {
+document.querySelector('.toggle-header-two').addEventListener('click', function() {
     const info = document.querySelector('.contributions-info');
     const arrow = document.querySelector('.toggle-arrow-two');
 
@@ -41,7 +41,7 @@ function openNav() {
     }
   });
 
-  document.querySelector('.toggle-header-three').addEventListener('click', function() {
+document.querySelector('.toggle-header-three').addEventListener('click', function() {
     const info = document.querySelector('.future-info');
     const arrow = document.querySelector('.toggle-arrow-three');
 
@@ -54,7 +54,7 @@ function openNav() {
     }
   });
 
-  document.querySelector('.toggle-header-four').addEventListener('click', function() {
+document.querySelector('.toggle-header-four').addEventListener('click', function() {
     const info = document.querySelector('.now-info');
     const arrow = document.querySelector('.toggle-arrow-four');
 
@@ -66,3 +66,4 @@ function openNav() {
       arrow.innerHTML = '&#9660;';
     }
   });
+

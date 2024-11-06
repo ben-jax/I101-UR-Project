@@ -4,6 +4,7 @@
     margin: 0px;
     font-family: 'Poppins';
     font-size: 25px;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -11,6 +12,10 @@ html, body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+}
+
+img {
+    vertical-align: middle;
 }
 
 .container-fluid {
@@ -77,20 +82,29 @@ html, body {
     .sidenav a {font-size: 18px;}
 }
 
-.body-contents {
-    padding: 15px;
-
+.slide {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-.body-contents img {
-    display: block;
-    border: 2px solid black;
-    border-radius: 10px;
-    max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+.slide button:hover {
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.c-item {
+    height: 550px;
+}
+
+.c-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.body-contents {
+    padding: 15px;
 }
 
 .body-contents h2 {
@@ -103,8 +117,7 @@ html, body {
     background-color: #FFFFF0;
     border-radius: 35px;
     padding-left: 15px;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-    
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);  
 }
 
 .body-contents span {
@@ -224,3 +237,4 @@ footer p {
     font-size: 15px;
     padding: 0;
 }
+
