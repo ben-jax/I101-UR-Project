@@ -225,6 +225,69 @@ img {
     color: #666666;
 }
 
+.feedback {
+    padding: 15px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h3 {
+    font-size: 75px;
+    background-color: #E5E5E5;
+    border-radius: 75px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header p{
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.summary {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.summary h3 {
+    font-size: 40px;
+}
+
+.summary p{
+    font-size: 20px
+}
+
+.presentation-content {
+    display: flex;       
+    justify-content: center; 
+    align-items: center;    
+    height: 100%;  
+}
+
+.pres {
+    width: 75%;
+    height: 600px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.work {
+    padding: 15px;
+}
+
+.work-contents {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
 .tech {
     background-color: #E5E5E5;
     padding: 15px;
